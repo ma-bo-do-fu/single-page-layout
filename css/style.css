@@ -53,10 +53,24 @@ body {
   width: 200px;
   padding: 20px;
   border-radius: 4px;
-  background-color: none;
+  background-color: #afa58d;
+  color: #fff;
+  text-decoration: node;
   letter-spacing: 1px;
   font-size: 1.2rem;
 }
-.button-hover {
+.button:hover {
   opacity: 0.9;
+}
+.button-showy {
+  background-color: #f1b400;
+}
+.buttons .button {
+  margin: 10px;
+}
+
+.about {
+  padding: 80px 30px;
+  background-color: #fff;
+  color: #333;
 }
