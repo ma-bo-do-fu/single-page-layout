@@ -219,6 +219,7 @@ body {
   border-radius: 0;
   background-color: rgba(255, 255, 255, 0.05);
   color: #fff;
+  outline: none;
 }
 .contact-form textarea {
   height: 150px;
@@ -236,4 +237,12 @@ body {
 }
 .contact-form input[type=submit]:hover {
   background-color: rgba(255, 255, 255, 0.5);
+}
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5) inset;
+}
+.footer {
+  padding: 12px 0;
+  font-size: 1.3rem;
 }
